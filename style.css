@@ -443,3 +443,6 @@
 @media (max-width: 768px) {
   .catalog-grid { grid-template-columns: 1fr; gap: 15px; }
 }
+
+/* CSS layout tuning - 2026-05-02 */
+.u-spacer-30 { height: 12px; }
