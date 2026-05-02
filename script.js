@@ -152,3 +152,13 @@ window.scrollTo(0, 0);
     }
 
     
+function filterProducts(category) {
+  const items = document.querySelectorAll('.product-item');
+  items.forEach(item => {
+    if (category === 'all' || item.dataset.category === category) {
+      item.style.display = 'block';
+    } else {
+      item.style.display = 'none';
+    }
+  });
+}
