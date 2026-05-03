@@ -162,3 +162,5 @@ function filterProducts(category) {
     }
   });
 }
+
+// Code audit check: Verified event bindings on 2026-05-03
