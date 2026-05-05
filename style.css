@@ -1,0 +1,442 @@
+:root {
+      --forest: #1B4332;
+      --forest-light: #2D6A4F;
+      --forest-dark: #081C15;
+      --gold: #D4AF37;
+      --gold-hover: #C5A028;
+      --cream: #FDFDFB;
+    }
+
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--cream);
+      color: #1a1a1a;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-rendering: optimizeLegibility;
+    }
+
+    /* Custom Elegant Scrollbar - Optimized */
+    ::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: var(--cream);
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: var(--forest-light);
+      border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: var(--gold);
+    }
+
+    /* Sophisticated Typography */
+    h1,
+    h2,
+    h3,
+    .font-serif {
+      letter-spacing: -0.02em;
+    }
+
+    .tracking-widest {
+      letter-spacing: 0.3em !important;
+    }
+
+    /* Smooth Scroll Reveal - Optimized */
+    .reveal {
+      opacity: 0;
+      transform: translateY(30px) scale(0.99);
+      transition: transform 0.8s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+      will-change: transform, opacity;
+    }
+
+    .reveal.active {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+
+    .reveal-left {
+      opacity: 0;
+      transform: translateX(-30px);
+      transition: transform 0.8s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+      will-change: transform, opacity;
+    }
+
+    .reveal-left.active {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    .reveal-right {
+      opacity: 0;
+      transform: translateX(30px);
+      transition: transform 0.8s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+      will-change: transform, opacity;
+    }
+
+    .reveal-right.active {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    /* Force Hardware Acceleration */
+    .hero-zoom,
+    .reveal,
+    .reveal-left,
+    .reveal-right,
+    .reveal-scale,
+    .btn-premium,
+    .card-lift {
+      backface-visibility: hidden;
+      perspective: 1000px;
+      transform: translateZ(0);
+    }
+
+    .reveal-scale {
+      opacity: 0;
+      transform: scale(0.95);
+      transition: transform 0.8s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+      will-change: transform, opacity;
+    }
+
+    .reveal-scale.active {
+      opacity: 1;
+      transform: scale(1);
+    }
+
+    /* Modern Glassmorphism */
+    .glass-card {
+      background: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      box-shadow: 0 8px 32px 0 rgba(27, 67, 50, 0.05);
+    }
+
+    .nav-glass {
+      background: rgba(253, 253, 251, 0.85);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(27, 67, 50, 0.05);
+    }
+
+    /* Premium Buttons */
+    .btn-premium {
+      position: relative;
+      overflow: hidden;
+      transition: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    .btn-premium::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+      transition: 0.5s;
+    }
+
+    .btn-premium:hover::before {
+      left: 100%;
+    }
+
+    /* Premium Cards */
+    .card-lift {
+      transition: all 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+      border: 1px solid rgba(27, 67, 50, 0.05);
+    }
+
+    .card-lift:hover {
+      transform: translateY(-12px);
+      box-shadow: 0 30px 60px -15px rgba(27, 67, 50, 0.15), 0 0 20px rgba(212, 175, 55, 0.1);
+      border-color: rgba(212, 175, 55, 0.3);
+    }
+
+    .price-tag {
+      background: linear-gradient(135deg, var(--gold), var(--gold-hover));
+      color: var(--forest-dark);
+      box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
+    }
+
+    /* Section Styling */
+    .section-title {
+      position: relative;
+      padding-bottom: 20px;
+    }
+
+    .section-title::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 40px;
+      height: 2px;
+      background: var(--gold);
+      border-radius: 2px;
+      transition: all 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    .section-title:hover::after {
+      width: 100px;
+      letter-spacing: 0.1em;
+    }
+
+    /* Luxury Ribbon */
+    .ribbon-signature {
+      position: absolute;
+      top: 20px;
+      right: -10px;
+      background: var(--gold);
+      color: var(--forest-dark);
+      padding: 4px 15px;
+      font-size: 8px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      transform: rotate(3deg);
+      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+      border-radius: 4px;
+      z-index: 10;
+    }
+
+    /* Verified Badge */
+    .verified-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      background: rgba(212, 175, 55, 0.1);
+      color: var(--gold);
+      padding: 3px 8px;
+      border-radius: 99px;
+      font-size: 8px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 12px;
+    }
+
+    /* Hero Parallax Effect */
+    .hero-zoom {
+      will-change: transform;
+    }
+
+    /* WhatsApp Pulse */
+    .wa-pulse {
+      animation: pulse-wa 2s infinite;
+    }
+
+    @keyframes pulse-wa {
+      0% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.6);
+      }
+
+      70% {
+        box-shadow: 0 0 0 20px rgba(37, 211, 102, 0);
+      }
+
+      100% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+      }
+    }
+
+    /* Stagger Delays */
+    .delay-100 {
+      transition-delay: 0.1s;
+    }
+
+    .delay-200 {
+      transition-delay: 0.2s;
+    }
+
+    .delay-300 {
+      transition-delay: 0.3s;
+    }
+
+    .delay-400 {
+      transition-delay: 0.4s;
+    }
+
+    .delay-500 {
+      transition-delay: 0.5s;
+    }
+
+    /* FAQ Accordion */
+    .faq-content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    .faq-item.faq-active .faq-content {
+      max-height: 500px;
+    }
+
+    .faq-item.faq-active .faq-trigger {
+      background-color: var(--cream);
+    }
+
+    .faq-item.faq-active {
+      border-color: var(--gold);
+      box-shadow: 0 10px 30px -10px rgba(212, 175, 55, 0.2);
+    }
+
+    .faq-item.faq-active .faq-icon {
+      transform: rotate(180deg);
+      color: var(--forest);
+    }
+
+    .faq-icon {
+      transition: transform 0.3s ease;
+    }
+
+    /* Gallery Overlay */
+    .gallery-overlay {
+      opacity: 0;
+      transition: all 0.4s ease;
+    }
+
+    .gallery-item:hover .gallery-overlay {
+      opacity: 1;
+    }
+
+    .gallery-item img {
+      transition: transform 1.2s cubic-bezier(0.22, 1, 0.36, 1);
+      will-change: transform;
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.1);
+    }
+
+    /* Consistent Transition for All Interactive Elements - Optimized */
+    a,
+    button,
+    .nav-link,
+    .card-lift,
+    .btn-premium {
+      transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+        opacity 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+        background-color 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+        color 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+        border-color 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+        box-shadow 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    /* Hide scrollbar on carousels */
+    #gallery-carousel::-webkit-scrollbar,
+    .snap-x::-webkit-scrollbar {
+      display: none;
+    }
+
+    /* ── Global Spacing & Rhythm ── */
+    section {
+      position: relative;
+    }
+
+    p {
+      line-height: 1.8;
+    }
+
+    /* ── Trust Badges — horizontal scroll on mobile ── */
+    .trust-badges {
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      gap: 12px;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+      padding-bottom: 4px;
+    }
+
+    .trust-badges::-webkit-scrollbar {
+      display: none;
+    }
+
+    .trust-badge {
+      flex-shrink: 0;
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      color: rgba(255, 255, 255, 0.8);
+      padding: 7px 14px;
+      border-radius: 9999px;
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      white-space: nowrap;
+    }
+
+    /* ── Consistent section header spacing ── */
+    .section-eyebrow {
+      display: block;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.3em;
+      font-size: 0.7rem;
+      margin-bottom: 1rem;
+    }
+
+    /* ── Performance Optimizations ── */
+    /* Active Nav Link Sliding Indicator */
+    .nav-link {
+      position: relative;
+    }
+
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: var(--gold);
+      transition: width 0.3s ease;
+    }
+
+    .nav-link.active-link::after {
+      width: 100%;
+    }
+
+    /* ── Gallery Styles ── */
+    .gallery-item {
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+    }
+
+    .gallery-overlay {
+      opacity: 0;
+      transition: all 0.4s ease;
+    }
+
+    .gallery-item:hover .gallery-overlay {
+      opacity: 1;
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.08);
+    }
+
+    .gallery-item img {
+      transition: transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    /* Hide scrollbar on carousels */
+    #gallery-carousel::-webkit-scrollbar,
+    .snap-x::-webkit-scrollbar {
+      display: none;
+    }

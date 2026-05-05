@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://balajifarmstay.com/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://balajifarmstay.com/assets/a.png</image:loc>
+      <image:title>Balaji Farm Luxury Villa &amp; Infinity Pool</image:title>
+      <image:caption>A premium sanctuary of nature and luxury near Mumbai.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://balajifarmstay.com/assets/b.webp</image:loc>
+      <image:title>Private Swimming Pool at Balaji Farm</image:title>
+      <image:caption>Cool down in our pristine private pool surrounded by greenery.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://balajifarmstay.com/assets/bedroom.webp</image:loc>
+      <image:title>Luxury Bedroom Suite</image:title>
+      <image:caption>Elegantly designed 4 BHK villa rooms for a comfortable stay.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://balajifarmstay.com/assets/playingcricket.webp</image:loc>
+      <image:title>Professional Cricket Turf</image:title>
+      <image:caption>Enjoy a game of cricket on our high-quality turf pitch.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://balajifarmstay.com/assets/entrance.webp</image:loc>
+      <image:title>Grand Entrance of Balaji Farm</image:title>
+      <image:caption>A majestic welcome to your luxury weekend getaway.</image:caption>
+    </image:image>
+  </url>
+</urlset>
