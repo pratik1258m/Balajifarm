@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+.vscode/
+reviews_screenshot.png
+screenshot.js
+hammock.html
+dist/
+deploy/.DS_Store
