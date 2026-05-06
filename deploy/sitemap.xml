@@ -3,33 +3,69 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://balajifarmstay.com/</loc>
-    <lastmod>2026-05-05</lastmod>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://balajifarmstay.com/assets/a.png</image:loc>
-      <image:title>Balaji Farm Luxury Villa &amp; Infinity Pool</image:title>
-      <image:caption>A premium sanctuary of nature and luxury near Mumbai.</image:caption>
+      <image:title>Balaji Farm Luxury Villa &amp; Infinity Pool – Wada, Palghar near Mumbai</image:title>
+      <image:caption>A premium luxury farm stay sanctuary — private villa, pool and lush estate near Mumbai.</image:caption>
+      <image:geo_location>Wada, Palghar, Maharashtra, India</image:geo_location>
+      <image:license>https://balajifarmstay.com/</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://balajifarmstay.com/assets/j.webp</image:loc>
+      <image:title>Balaji Farm Grand Estate Façade – Farm Stay Near Mumbai</image:title>
+      <image:caption>The grand decorated entrance of Balaji Farm luxury estate in Wada, Palghar.</image:caption>
+      <image:geo_location>Wada, Palghar, Maharashtra, India</image:geo_location>
     </image:image>
     <image:image>
       <image:loc>https://balajifarmstay.com/assets/b.webp</image:loc>
-      <image:title>Private Swimming Pool at Balaji Farm</image:title>
-      <image:caption>Cool down in our pristine private pool surrounded by greenery.</image:caption>
+      <image:title>Private Swimming Pool at Balaji Farm – Farmhouse Near Mumbai</image:title>
+      <image:caption>Cool off in our pristine private infinity pool surrounded by lush greenery at Balaji Farm.</image:caption>
+      <image:geo_location>Wada, Palghar, Maharashtra, India</image:geo_location>
     </image:image>
     <image:image>
       <image:loc>https://balajifarmstay.com/assets/bedroom.webp</image:loc>
-      <image:title>Luxury Bedroom Suite</image:title>
-      <image:caption>Elegantly designed 4 BHK villa rooms for a comfortable stay.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://balajifarmstay.com/assets/playingcricket.webp</image:loc>
-      <image:title>Professional Cricket Turf</image:title>
-      <image:caption>Enjoy a game of cricket on our high-quality turf pitch.</image:caption>
+      <image:title>Luxury Bedroom Suite – 4 BHK Villa at Balaji Farm Wada</image:title>
+      <image:caption>Elegantly designed 4 BHK villa rooms for a comfortable luxury stay near Mumbai.</image:caption>
+      <image:geo_location>Wada, Palghar, Maharashtra, India</image:geo_location>
     </image:image>
     <image:image>
       <image:loc>https://balajifarmstay.com/assets/entrance.webp</image:loc>
-      <image:title>Grand Entrance of Balaji Farm</image:title>
-      <image:caption>A majestic welcome to your luxury weekend getaway.</image:caption>
+      <image:title>Grand Entrance of Balaji Farm – Luxury Farm Stay Palghar</image:title>
+      <image:caption>A majestic grand welcome to your luxury weekend getaway at Balaji Farm, Wada.</image:caption>
+      <image:geo_location>Wada, Palghar, Maharashtra, India</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://balajifarmstay.com/assets/playingcricket.webp</image:loc>
+      <image:title>Professional Cricket Turf – Balaji Farm Weekend Stay Mumbai</image:title>
+      <image:caption>Enjoy a professional-grade cricket turf match at Balaji Farm during your farm stay.</image:caption>
+      <image:geo_location>Wada, Palghar, Maharashtra, India</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://balajifarmstay.com/assets/room.webp</image:loc>
+      <image:title>Luxury Living Area – Balaji Farm 4 BHK Villa Near Mumbai</image:title>
+      <image:caption>Expansive and elegantly furnished living spaces at Balaji Farm for grand group gatherings.</image:caption>
+      <image:geo_location>Wada, Palghar, Maharashtra, India</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://balajifarmstay.com/assets/ab.webp</image:loc>
+      <image:title>Traditional Welcome Décor – Balaji Farm Event Venue Near Mumbai</image:title>
+      <image:caption>Beautifully decorated entrance for weddings and events at Balaji Farm, Wada Palghar.</image:caption>
+      <image:geo_location>Wada, Palghar, Maharashtra, India</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://balajifarmstay.com/assets/happyclient1.webp</image:loc>
+      <image:title>Happy Guests at Balaji Farm – Farm Stay Reviews Near Mumbai</image:title>
+      <image:caption>Smiling guests enjoying their luxurious family stay at Balaji Farm, rated 4.6 stars on Google.</image:caption>
+      <image:geo_location>Wada, Palghar, Maharashtra, India</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://balajifarmstay.com/assets/e.webp</image:loc>
+      <image:title>Balaji Farm Garden Terrace Pavilion – Outdoor Events Palghar</image:title>
+      <image:caption>Al fresco outdoor dining and event spaces surrounded by nature at Balaji Farm.</image:caption>
+      <image:geo_location>Wada, Palghar, Maharashtra, India</image:geo_location>
     </image:image>
   </url>
 </urlset>
